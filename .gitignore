@@ -1,0 +1,37 @@
+# Ignore system files and directories
+AppData/
+OneDrive/
+Documents/
+Downloads/
+Favorites/
+Links/
+Music/
+Pictures/
+Videos/
+Saved Games/
+Contacts/
+Recent/
+Start Menu/
+Templates/
+
+# Ignore specific file types
+*.log
+*.bak
+*.swp
+*.swo
+
+# Ignore VSCode and other IDE settings
+.vscode/
+
+# Ignore Jupyter, IPython, and related notebooks
+.ipynb_checkpoints/
+.ipython/
+.jupyter/
+.matplotlib/
+.qiskit/
+
+# Ignore node_modules
+node_modules/
+
+# Ignore virtual environments
+venv/
