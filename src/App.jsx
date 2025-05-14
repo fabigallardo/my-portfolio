@@ -1,6 +1,5 @@
 import { useState } from 'react'
 import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
 import './App.css'
 
 
@@ -9,7 +8,7 @@ function App() {
 
   return (
 
-    <div className="min-h-screen w-full font-sans bg-gradient-to-b from-gray-900 via-gray-800 to-black text-white">
+    <div className="font-sans  text-white">
       {/*Navbar*/}
       <nav className="p-5">
         <ul className="flex justify-center space-x-8">
@@ -69,7 +68,7 @@ function App() {
       </section>
 
       {/*Contact Section*/}
-      <section id="contact" className="py-20 px-10 text-center">
+      <section id="contact" className="py-20 px-10">
         <h2 className="text-4xl font-semibold">Contact Me</h2>
         <p className="mt-4 text-xl">Feel free to reach out to me via email at: <a href="mailto:fabigallardo333@gmail.com" className="text-blue-400">fabigallardo333@gmail.com</a></p>
       </section>

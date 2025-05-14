@@ -2,11 +2,30 @@
 @import 'tailwindcss/components';
 @import 'tailwindcss/utilities';
 
-#root {
+
+/* Global Reset */
+* {
   margin: 0;
   padding: 0;
-  background-color: transparent;  /* Ensures it's transparent */
-  height: 100%; /* Fill the screen */
-  width: 100%;  /* Fill the screen */
+  box-sizing: border-box;
 }
 
+
+html, body {
+  min-height: 100%;
+  width: 100%;
+  background: linear-gradient(to bottom, #1e3a8a, #0f172a); /* From blue to dark navy */
+}
+
+
+.main-content {
+  display: flex;
+  flex-direction: column;
+  min-height: 100%; /* Ensures it fills the viewport height */
+  overflow-x: hidden;
+}
+
+.container {
+  width: 100%;
+  max-width: 100%;
+}
