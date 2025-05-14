@@ -25,7 +25,7 @@ function App() {
           Hi, I'm Fabiola
         </h1>
         <p className="mt-4 text-xl">
-          I'm a passionate Software Engineer with a background in computer engineering. I love creating colutions that impact the world positively.
+          I'm a passionate Software Engineer with a background in computer engineering. I love creating solutions that impact the world positively.
         </p>
       </section>
 
