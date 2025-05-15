@@ -98,7 +98,7 @@ function App() {
 
           {/* Routes */}
         <Routes>
-          <Route path="/" element={<Homepage />} />
+          <Route path="/my-portfolio" element={<Homepage />} />
           <Route path="/project1" element={<Project1 />} />
         </Routes>
       </div>
