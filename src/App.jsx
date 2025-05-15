@@ -22,7 +22,7 @@ function Homepage(){
 
       {/* About me Section*/}
       <section id="about" className="py-20 px-10 text-center">
-        <h1 className="text-5xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-indigo-400 to-cyan-400">
+        <h1 className="text-5xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-[rgb(168,85,247)]">
           Hi, I'm Fabiola
         </h1>
         <p className="mt-4 text-xl">
@@ -42,20 +42,20 @@ function Homepage(){
       <section id="projects" className="py-20 px-10">
         <h2 className="text-4xl font-semibold text-center">My Projects</h2>
         <div className="mt-10 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
-          <Link to="/project1" className="block bg-indigo-800 p-6 rounded-lg hover:bg-black hover:shadow-[0_0_15px_5px_rgba(168,85,247,0.5)] transition duration-300">
+          <Link to="/project1" className=" bg-[rgba(168,85,247,0.5)] p-6 rounded-lg hover:bg-black hover:bg-[url('group1.png')] bg-cover bg-center hover:shadow-[0_0_15px_5px_rgba(168,85,247,0.5)] transition duration-300">
             <h3 className="text-2xl font-bold">Autonomous Car with Object Detection</h3>
             <p className="mt-2 text-[18px] text-[#d3d3d3]">Click here to know more about my senior design project that I did with two other classmates.</p>
           </Link>
-          <Link to="/project2" className="bg-indigo-800 p-6 rounded-lg hover:bg-black hover:shadow-[0_0_15px_5px_rgba(168,85,247,0.5)] transition duration-300">
+          <Link to="/project2" className="bg-[rgba(168,85,247,0.5)] p-6 rounded-lg hover:bg-black hover:bg-[url('group1.png')] bg-cover bg-center hover:shadow-[0_0_15px_5px_rgba(168,85,247,0.5)] transition duration-300">
             <h3 className="text-2xl font-bold">172 Brawl</h3>
             <div className="mt-4"></div>
             <p className="mt-2 text-[18px] text-[#d3d3d3]">Click here to know more about my Embedded Systems Development Project that I did with another classmate.</p>
           </Link>
-          <Link to="/project3" className="bg-indigo-800 p-6 rounded-lg hover:bg-black hover:shadow-[0_0_15px_5px_rgba(168,85,247,0.5)] transition duration-300">
+          <Link to="/project3" className="bg-[rgba(168,85,247,0.5)] p-6 rounded-lg hover:bg-black hover:bg-[url('group1.png')] bg-cover bg-center hover:shadow-[0_0_15px_5px_rgba(168,85,247,0.5)] transition duration-300">
             <h3 className="text-2xl font-bold">Legend Shell</h3>
             <p className="mt-2 text-[18px] text-[#d3d3d3]">Click here to know more about my Unix-Command Processor Project that I did with another classmate.</p>
           </Link>
-          <Link to="/project4" className="bg-indigo-800 p-6 rounded-lg hover:bg-black hover:shadow-[0_0_15px_5px_rgba(168,85,247,0.5)] transition duration-300">
+          <Link to="/project4" className="bg-[rgba(168,85,247,0.5)] p-6 rounded-lg hover:bg-black hover:bg-[url('group1.png')] bg-cover bg-center hover:shadow-[0_0_15px_5px_rgba(168,85,247,0.5)] transition duration-300">
             <h3 className="text-2xl font-bold">Project 4</h3>
             <p className="mt-2 text-[18px] text-[#d3d3d3]">Description of your project goes here.</p>
           </Link>
