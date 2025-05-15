@@ -14,4 +14,3 @@ If you are developing a production application, we recommend using TypeScript wi
 =======
 # Portfolio
 This is my portfolio! It is still in progress, stay tuned!
->>>>>>> f7126de8f72ffded2af160909170d839a007189c
