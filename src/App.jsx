@@ -56,8 +56,8 @@ function Homepage(){
             <p className="mt-2 text-[18px] text-[#d3d3d3]">Click here to know more about my Unix-Command Processor Project that I did with another classmate.</p>
           </Link>
           <Link to="/project4" className="bg-[rgba(168,85,247,0.5)] p-6 rounded-lg hover:bg-black hover:bg-[url('group1.png')] bg-cover bg-center hover:shadow-[0_0_15px_5px_rgba(168,85,247,0.5)] transition duration-300">
-            <h3 className="text-2xl font-bold">Project 4</h3>
-            <p className="mt-2 text-[18px] text-[#d3d3d3]">Description of your project goes here.</p>
+            <h3 className="text-2xl font-bold">Sound Following Robot</h3>
+            <p className="mt-2 text-[18px] text-[#d3d3d3]">Click here to know more about my first robot I did in college with another classmate.</p>
           </Link>
         </div>
       </section>
@@ -67,16 +67,24 @@ function Homepage(){
         <h2 className="text-4xl font-semibold text-center">My Skills</h2>
         <div className="mt-10 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
           <div className="bg=gray-700 p-6 rounded-lg">
-            <h3 className="text-2xl font-bold">Skill 1</h3>
-            <p className="mt-2">Skill description.</p>
+            <h3 className="text-2xl font-bold">Languages</h3>
+            <p className="mt-2 text-[18px] text-[#d3d3d3]">I am fluent in two languages, English and Spanish. Spanish is the first language I learned. Both have helped me a lot, especially at work and connecting with my other Hispanic peers.</p>
           </div>
           <div className="bg=gray-700 p-6 rounded-lg">
-            <h3 className="text-2xl font-bold">Skill 2</h3>
-            <p className="mt-2">Skill description.</p>
+            <h3 className="text-2xl font-bold">Programming Languages</h3>
+            <p className="mt-2 text-[18px] text-[#d3d3d3]">The programming languages I know are C, C++, Python, Java, Matlab, Verilog, Bach, RISC-V, HTML5, and CSS.</p>
           </div>
           <div className="bg=gray-700 p-6 rounded-lg">
-            <h3 className="text-2xl font-bold">Skill 3</h3>
-            <p className="mt-2">Skill description.</p>
+            <h3 className="text-2xl font-bold">EDA Tools</h3>
+            <p className="mt-2 text-[18px] text-[#d3d3d3]">EDA tools I can work with Altium Designer, OrCad Capture, LT Spice, ModelSim, and Quartus.</p>
+          </div>
+          <div className="bg=gray-700 p-6 rounded-lg">
+            <h3 className="text-2xl font-bold">Hardware Tools</h3>
+            <p className="mt-2 text-[18px] text-[#d3d3d3]">Hardware tools I can work with are microcontrollers (Arduino, TI, Raspberry Pi), Oscilliscope, Function Generator, Spectrum Analyzer, and Digital Multimeter.</p>
+          </div>
+          <div className="bg=gray-700 p-6 rounded-lg">
+            <h3 className="text-2xl font-bold">Other Skills</h3>
+            <p className="mt-2 text-[18px] text-[#d3d3d3]">Other skills that I feel are essential in any workplace is Unix/Linux, Windows, Microsoft Office, Goodle Suite, Amazon Web Services (AWS), Git.</p>
           </div>
         </div>
       </section>
