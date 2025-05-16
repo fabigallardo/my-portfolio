@@ -55,13 +55,13 @@ function Homepage(){
             <h3 className="text-2xl font-bold">Legend Shell</h3>
             <p className="mt-2 text-[18px] text-[#d3d3d3]">Click here to know more about my Unix-Command Processor Project that I did with another classmate.</p>
           </Link>
-          <Link to="/project4" className="bg-[rgba(168,85,247,0.5)]] p-6 rounded-lg hover:bg-black hover:bg-[url('group1.png')] bg-cover bg-center hover:shadow-[0_0_15px_5px_rgba(168,85,247,0.5)] transition duration-300">
-            <h3 className="text-2xl font-bold">Sound Following Robot</h3>
-            <p className="mt-2 text-[18px] text-[#d3d3d3]">Click here to know more about my first robot I did in college with another classmate.</p>
+          <Link to="/project4" className="bg-[rgba(168,85,247,0.5)] p-6 rounded-lg hover:bg-black hover:bg-[url('group1.png')] bg-cover bg-center hover:shadow-[0_0_15px_5px_rgba(168,85,247,0.5)] transition duration-300">
+              <h3 className="text-2xl font-bold">Sound Following Robot</h3>
+              <p className="mt-2 text-[18px] text-[#d3d3d3]">Click here to know more about my first robot I did in college with another classmate.</p>
           </Link>
         </div>
       </section>
-
+      
       {/* Skills Section*/}
       <section id="skills" className="py-20 px-10">
         <h2 className="text-4xl font-semibold text-center">My Skills</h2>
